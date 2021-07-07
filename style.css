@@ -1,0 +1,521 @@
+body {
+	color: #444;
+	font-size: 16px;
+	font-family: 'Open Sans';
+}
+
+.center-box {
+	width: 1180px;
+	margin: 0 auto;
+}
+
+header {
+	min-height: 80px;
+	border-bottom: solid 1px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+#logo {
+	float: left;
+}
+
+#logo a {
+	display: inline-block;
+	margin: 15px 0 0 0;
+}
+
+#logo a img {
+	width: 195px;
+	height: auto;
+}
+
+nav {
+	float: right;
+	margin: 28px 0 0 0;
+}
+
+nav ul {
+	float: right;
+}
+
+nav ul li {
+	float: left;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+nav ul li a {
+	padding: 0 10px;
+	color: inherit;
+}
+
+#banner {
+	background: #f7f7f7 url(img/flower.png) top right;
+}
+
+h1 {
+	font-family: 'Abril Fatface';
+	font-size: 40px;
+	text-transform: uppercase;
+	margin: 0 0 0 0;
+	opacity: 0;
+	animation: 2s slideinleft ease 0s forwards;
+	-webkit-animation: 2s slideinleft ease 0s forwards;
+	-moz-animation: 2s slideinleft ease 0s forwards;
+	-o-animation: 2s slideinleft ease 0s forwards;
+}
+
+h2 {
+	font-family: 'Abril Fatface';
+	font-size: 34px;
+	text-transform: uppercase;
+	margin: 30px 0 20px 0;
+	text-align: center;
+}
+
+#banner h3 {
+	font-size: 26px;
+	text-transform: uppercase;
+	color: #fb6c79;
+	margin: 0 0 20px 0;
+	font-weight: bold;
+	opacity: 0;
+	animation: 2s slideinleft ease 0.5s forwards;
+	-webkit-animation: 2s slideinleft ease 0.5s forwards;
+	-moz-animation: 2s slideinleft ease 0.5s forwards;
+	-o-animation: 2s slideinleft ease 0.5s forwards;
+}
+
+#banner p {
+	margin: 0 0 20px 0;
+	opacity: 0;
+	animation: 2s slideinleft ease 1s forwards;
+	-webkit-animation: 2s slideinleft ease 1s forwards;
+	-moz-animation: 2s slideinleft ease 1s forwards;
+	-o-animation: 2s slideinleft ease 1s forwards;
+}
+
+.button {
+	display: inline-block;
+	background: url(img/rosy-bg.gif);
+	height: 40px;
+	line-height: 40px;
+	padding: 0 15px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5);
+	border-radius: 30px;
+}
+
+#banner .button {	
+	opacity: 0;
+	animation: 2s slideinleft ease 1.5s forwards;
+	-webkit-animation: 2s slideinleft ease 1.5s forwards;
+	-moz-animation: 2s slideinleft ease 1.5s forwards;
+	-o-animation: 2s slideinleft ease 1.5s forwards;
+}
+
+#banner {
+	background: #f7f7f7 url(img/flower.png) top right;
+	position: relative;
+	overflow: hidden;
+}
+
+#banner-text {
+	padding: 100px 0 200px;
+}
+
+#banner-text p {
+	width: 45%;
+}
+
+#banner-images .center-box {
+	height: 100%;
+}
+
+#banner-images {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+}
+
+#images {
+	width: 60%;
+	height: 100%;
+	float: right;
+	position: relative;
+}
+
+#cosmetics {
+	position: absolute;
+	width: 330px;
+	bottom: 20px;
+	left: 0;
+}
+
+#cosmetics1 {
+	position: absolute;
+	left: 0;
+	bottom: 20px;
+	width: 25%;
+	opacity: 0;
+	animation: 2s slideinright ease 1.5s forwards;
+	-webkit-animation: 2s slideinright ease 1.5s forwards;
+	-moz-animation: 2s slideinright ease 1.5s forwards;
+	-o-animation: 2s slideinright ease 1.5s forwards;
+}
+
+#cosmetics2 {
+	position: absolute;
+	left: 200px;
+	bottom: 20px;
+	width: 20%;
+	opacity: 0;
+	animation: 2s slideinright ease 2s forwards;
+	-webkit-animation: 2s slideinright ease 2s forwards;
+	-moz-animation: 2s slideinright ease 2s forwards;
+	-o-animation: 2s slideinright ease 2s forwards;
+}
+
+#cosmetics3 {
+	position: absolute;
+	left: 80px;
+	bottom: 20px;
+	width: 35%;
+	opacity: 0;
+	animation: 2s slideinright ease 2.5s forwards;
+	-webkit-animation: 2s slideinright ease 2.5s forwards;
+	-moz-animation: 2s slideinright ease 2.5s forwards;
+	-o-animation: 2s slideinright ease 2.5s forwards;
+}
+
+#cosmetics4 {
+	position: absolute;
+	left: 30px;
+	bottom: 40px;
+	width: 35%;
+	opacity: 0;
+	animation: 2s slideinright ease 0.5s forwards;
+	-webkit-animation: 2s slideinright ease 0.5s forwards;
+	-moz-animation: 2s slideinright ease 0.5s forwards;
+	-o-animation: 2s slideinright ease 0.5s forwards;
+}
+
+#cosmetics5 {
+	position: absolute;
+	left: 120px;
+	bottom: 40px;
+	width: 40%;
+	opacity: 0;
+	animation: 2s slideinright ease 1s forwards;
+	-webkit-animation: 2s slideinright ease 1s forwards;
+	-moz-animation: 2s slideinright ease 1s forwards;
+	-o-animation: 2s slideinright ease 1s forwards;
+}
+
+#beauty {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	opacity: 0;
+	animation: 2s slideinright ease 0s forwards;
+	-webkit-animation: 2s slideinright ease 0s forwards;
+	-moz-animation: 2s slideinright ease 0s forwards;
+	-o-animation: 2s slideinright ease 0s forwards;
+}
+
+#badge {
+	position: absolute;
+	right: 0;
+	bottom: 50px;
+	background: url(img/menta-bg.png);
+	height: 85px;
+	line-height: 85px;
+	width: 85px;
+	color: #fff;
+	font-size: 28px;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+	border-radius: 50%;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+	opacity: 0;
+	animation: 2s rotatein ease 3s forwards;
+	-webkit-animation: 2s rotatein ease 3s forwards;
+	-moz-animation: 2s rotatein ease 3s forwards;
+	-o-animation: 2s rotatein ease 3s forwards;
+}
+
+@keyframes slideinleft {
+	from {
+		margin-left: -50px;
+		opacity: 0;
+	}
+	to {
+		margin-left: 0px;
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes slideinleft {
+	from {
+		margin-left: -50px;
+		opacity: 0;
+	}
+	to {
+		margin-left: 0px;
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes slideinleft {
+	from {
+		margin-left: -50px;
+		opacity: 0;
+	}
+	to {
+		margin-left: 0px;
+		opacity: 1;
+	}
+}
+
+@-o-keyframes slideinleft {
+	from {
+		margin-left: -50px;
+		opacity: 0;
+	}
+	to {
+		margin-left: 0px;
+		opacity: 1;
+	}
+}
+
+@keyframes slideinright {
+	from {
+		margin-right: -150px;
+		opacity: 0;
+	}
+	to {
+		margin-right: 0px;
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes slideinright {
+	from {
+		margin-right: -150px;
+		opacity: 0;
+	}
+	to {
+		margin-right: 0px;
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes slideinright {
+	from {
+		margin-right: -150px;
+		opacity: 0;
+	}
+	to {
+		margin-right: 0px;
+		opacity: 1;
+	}
+}
+
+@-o-keyframes slideinright {
+	from {
+		margin-right: -150px;
+		opacity: 0;
+	}
+	to {
+		margin-right: 0px;
+		opacity: 1;
+	}
+}
+
+@keyframes rotatein {
+	from {
+		opacity: 0;
+		transform: rotate(200deg);
+	}
+	to {
+		opacity: 1;
+		transform: rotate(7deg);
+	}
+}
+
+@-webkit-keyframes rotatein {
+	from {
+		opacity: 0;
+		transform: rotate(200deg);
+		-webkit-transform: rotate(200deg);
+	}
+	to {
+		opacity: 1;
+		transform: rotate(7deg);
+		-webkit-transform: rotate(7deg);
+	}
+}
+
+@-moz-keyframes rotatein {
+	from {
+		opacity: 0;
+		transform: rotate(200deg);
+		-moz-transform: rotate(200deg);
+	}
+	to {
+		opacity: 1;
+		transform: rotate(7deg);
+		-moz-transform: rotate(7deg);
+	}
+}
+
+@-o-keyframes rotatein {
+	from {
+		opacity: 0;
+		transform: rotate(200deg);
+		-o-transform: rotate(200deg);
+	}
+	to {
+		opacity: 1;
+		transform: rotate(7deg);
+		-o-transform: rotate(7deg);
+	}
+}
+
+.row {
+	padding-left: -20px;
+	padding-right: -20px;
+}
+
+.one-half {
+	width: 50%;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.one-half img {
+	width: 100%;
+}
+
+.product-item {
+	padding-left: 20px;
+	padding-right: 20px;
+	float: left;
+	width: 25%;
+}
+
+.product {
+	padding: 15px;
+	border: solid 1px rgba(0, 0, 0, 0.2);
+	text-align: center;
+	margin: 0 0 40px 0;
+}
+
+.product img {
+	width: 100%;
+}
+
+.product p {
+	margin: 0 0 10px 0;
+}
+
+.product p:first-of-type {
+	font-weight: bold;
+}
+
+.cart {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #fb6c79;
+}
+
+#gift {
+	padding: 50px 30px;
+	border: solid 1px rgba(0, 0, 0, 0.2);
+	text-align: center;
+	margin: 0 0 60px 0;
+	min-height: 308px;
+}
+
+#gift h3 {
+	text-transform: uppercase;
+	margin: 0 0 20px 0;
+	font-size: 30px;
+}
+
+#gift p {
+	margin: 0 0 20px 0;
+}
+
+footer {
+	background: #e2e2e2;
+	clear: both;
+	overflow: hidden;
+	padding: 20px 0;
+	text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+	.product-item, {
+		width: 50%;
+	}
+	.one-half {
+		width: 100%;
+	}
+} 
+
+@media only screen and (max-width: 360px) {
+	.product-item {
+		width: 100%;
+	}
+} 
+
+@media only screen and (max-width: 1180px) {
+	.center-box {
+		width: 100%;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+@media only screen and (max-width: 975px) {
+	#logo, nav, nav ul {
+		float: none;
+		width: 100%;
+		clear: both;
+	}
+	header {
+		overflow: hidden;
+	}
+	nav ul li {
+		float: none;
+		width: 100%;
+		margin: 0;
+	}
+	
+	#logo {
+		text-align: center;
+	}
+	
+	nav ul li a {
+		padding: 10px 0;
+		border-top: solid 1px rgba(0, 0, 0, 0.2);
+		display: inline-block;
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
